@@ -1,6 +1,6 @@
 {
   "name": "mars2d-electron",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "Mars2D平台,electron桌面程序最简项目模版",
   "main": "./dist/electron/main/main.js",
   "scripts": {
