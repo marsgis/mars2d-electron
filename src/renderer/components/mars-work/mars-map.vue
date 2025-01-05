@@ -36,7 +36,7 @@ onMounted(() => {
   mars2d.Util.fetchJson({ url: props.url }).then((data: any) => {
     initMars2d({
       // 合并配置项
-      ...data.mars2d,
+      ...data,
       ...props.options
     })
   })
